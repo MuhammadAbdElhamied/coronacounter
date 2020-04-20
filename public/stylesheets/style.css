@@ -1,0 +1,102 @@
+.row {
+	margin-right: 0;
+	margin-left: 0px; 
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  color: #1e2931;
+}
+body {
+  background: #181e23;
+  color: #1e2931;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.card {
+	background-color: #1e2931;
+  padding: 30px 10px;
+  border-radius: 20px;
+  margin-bottom: 10px
+}
+
+h5 {font-size: 12px; margin-bottom: 30px}
+p {font-size: 18px}
+
+h5, p {
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+  letter-spacing: 2px;	
+  text-align: center;
+  font-weight: 600
+}
+
+.topar {
+	width: 100%;
+	/* position: absolute; */
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	background-color: #1e2931;
+	padding: 20px;
+	box-shadow: 0 0 10px #181e23;
+	text-align: center;
+	padding-right: 0;
+	padding-left: 0;
+	position: fixed;
+}
+
+.logo a {
+	font-size: 20px;
+	color: #fff;
+}
+
+.container {
+	margin-top: 130px;
+}
+
+.footer a {
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	opacity: 0.7;
+	font-weight: 600;
+}
+
+.footer{width: 100%;}
+
+.footer a {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.footer .logo {
+	text-align: center;
+}
+
+.footer a:hover {
+  font-size: 13px;
+  opacity: 1;
+}
+
+hr {
+	width: 80%;
+	margin: 60px auto 40px;
+	background: #283742;
+}
+
+#countries {
+	width: 100%;
+	border-radius: 5px;
+	padding: 10px;
+	border: 0;
+	background: #1e2931;
+  color: #fff;
+  margin-top: 20px
+}
