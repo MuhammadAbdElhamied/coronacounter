@@ -52,8 +52,15 @@ h5, p {
 }
 
 .logo a {
-	font-size: 20px;
+	font-size: 18px;
 	color: #fff;
+}
+
+.topar .logo {
+	margin-bottom: 0;
+	padding: 0px 0;
+	text-transform: uppercase;
+	letter-spacing: 4px;
 }
 
 .container {
@@ -97,6 +104,45 @@ hr {
 	padding: 10px;
 	border: 0;
 	background: #1e2931;
-  color: #fff;
-  margin-top: 20px
+	color: #fff;
+	/* margin-top: 20px; */
+	margin-bottom: 20px;
+}
+
+.cases{font-size: 20px; margin-bottom: 10px;}
+
+.prsnt {
+	font-size: 12px;
+	opacity: 0.2;
+	margin-bottom: 0;
+	text-transform: unset;
+	letter-spacing: 0;
+}
+
+h5 {
+	margin-bottom: 55px;
+}
+
+.card{min-height: 220px}
+
+h3 {
+	text-align: center;
+	width: 100%;
+	margin-bottom: 20px;
+	font-size: 100px;
+	position: absolute;
+	bottom: -74px;
+	left: 0%;
+	z-index: -1;
+	color: #ffffff1c;
+	opacity: 0.1;
+}
+
+.word {
+	text-transform: unset;
+	letter-spacing: 0;
+	line-height: 18px;
+	font-size: 14px;
+	max-width: 70%;
+	margin: 40px auto 40px;
 }
